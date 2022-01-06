@@ -1,0 +1,197 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0%;
+}
+
+/* stay Focused section's verticale line */
+.vertical-line{
+    border-left: 4px solid #FF5959;
+    height: 134px;
+    padding-left: 13px;  
+    margin-left: 156px;
+    
+}
+
+/* stay Focused section section started */
+
+.flexible-container div img{
+  width: 426px;
+  height: 623px;
+  margin-right: 207px;
+}
+
+.flexible-container h1{
+ 
+    font-size: 60px;
+  
+}
+
+#text-part{
+  margin-left: 157px;
+  margin-right: 179px;
+}
+
+
+/* MY Mission section in 2022 */
+
+#goal-container{
+  margin-top: 42px;
+  margin-bottom: 86px;
+}
+#my-mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#my-mission h1{ 
+    font-size: 60px 
+}
+#card-container{
+  display: flex;
+  margin-top: 48px;
+  margin-left: 156px;
+  margin-right: 156px;
+  
+}
+#card-container div{
+  padding-right: 13px;
+  border-radius: 26px;
+  margin-left: 24px;
+}
+
+
+#card-container img{
+  margin-top: 25px;
+  height: 141px;
+  width: 141px;
+}
+
+/* card section end */
+
+/* Develop without Limits section start  */
+.developer-bg{
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 227px;
+  background-position: left;
+  background-position-x: 64px;
+  background-position-y: 54px;
+  background-position: calc(4%);
+  
+  
+}
+#develop-limits {
+  display: flex; 
+  align-items: center;
+}
+
+
+#develop-limits img{
+  width: 90%;
+  margin-right: 42px;
+}
+
+/* Develop without Limits section end  */
+
+/* global-community  section start */
+.community-bg{
+  background-image: url(../images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 227px;
+  background-position-x: right;
+  background-position-y:100% ;
+}
+#global-community img{
+  width: 75%;
+  margin-left: 108px;
+}
+/* global-community  section end */
+/* like section start */
+.likes-section{
+  display: flex;
+}
+#likes-section h1{
+  text-align: center;
+  color: #FFAD5A;
+  margin-top: 100px;
+}
+.likes-section-s div{
+ margin: 10px;
+ margin-right: 90px;
+ margin-left: 0%;
+}
+.likes-section-s {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 200px;
+  margin-left: 400px;
+  padding-bottom: 70px;
+  padding-left: 200px;
+  padding-right: 100px;
+  box-shadow: 2px 1px 2px 3px #FF5959;
+}
+
+
+/* like section end */
+
+/* footer section start */
+footer{
+  text-align: center;
+  color:#FFFFFF ;
+  background-color:#0B0D17 ;
+  padding-top: 39px;
+  padding-bottom: 42px;
+}
+
+footer  span, h1{
+  font-size: 36px;
+}
+
+footer span {
+  font-size: 36px;
+  color: #FF5959;
+}
+/* footer section end */
+
+/* common class */
+.flexible-container{
+  display: flex;
+  align-items: center;
+}
+
+span{
+  font-size: 60px;
+  color: #FFAD5A;
+}
+
+
+
+.btn{
+  background-color: #FF5959;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 16px;
+  color:#ffffff;
+  text-decoration: none;
+  margin-bottom: 45px;
+}
+.bg-Mission{
+  background-color:rgba(79, 157, 166, 0.1) ;
+}
+.bg-Vission{
+  background-color:rgba(255, 89, 89, 0.1) ;
+}
+.bg-goals{
+  background-color:#FFF4D6;
+}
+.half-width{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 158px;
+  margin-right: 156px;
+  margin-bottom: 84px;
+}
+
